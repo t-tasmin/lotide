@@ -2,12 +2,17 @@ const eqArrays = function(A, B) {
   
   let b = true;
 
-  for (let i = 0; i < A.length; i++) {
-    if (A[i] !== B[i])     {
-      b = false;
-      break;
+  if(A.length!== B.length) {
+    b = false;
+  } else {
+
+    for (let i = 0; i < A.length; i++) {
+      if (A[i] !== B[i])     {
+        b = false;
+        break;
+      }
     }
-  }
+  } 
   return b;
 };
 
