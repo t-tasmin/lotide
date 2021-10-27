@@ -1,22 +1,21 @@
-const assertArraysEqual = function(A, B) {
-  let b = true;
-
+const eqArrays = function(A, B) {
   if (A.length !== B.length) {
-    b = false;
+    return false;
   } else {
-
     for (let i = 0; i < A.length; i++) {
       if (A[i] !== B[i])     {
-        b = false;
-        break;
+        return false;
       }
     }
   }
-  
-  if (b === true) {
+  return true;
+};
+
+const assertArraysEqual = function(A, B) {
+  if (eqArrays(A,B) === true) {
     console.log(`✔✔✔Assertion Passed:${A} === ${B}`);
   } else {
-    console.log(`🥵😱🥵😱Assertion Failed:${A} !== ${B}`);
+    console.log(`❌❌❌Assertion Failed:${A} !== ${B}`);
   }
 };
 
