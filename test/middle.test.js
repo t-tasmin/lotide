@@ -16,7 +16,7 @@ describe("#middle",()=>{
     assert.deepEqual(result, expected);
   });
 
-  it('should return [30, 4] for [10, 2, 30, 4, 9 ,6][1, 2, 3, 4, 5,6])', () => {
+  it('should return [30, 4] for [10, 2, 30, 4, 9 ,6])', () => {
     const result = middle([10, 2, 30, 4, 9 ,6]);
     const expected = [30, 4];
     assert.deepEqual(result, expected);
