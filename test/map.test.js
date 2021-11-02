@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const map = require('../map');
 
-describe("#countLetters",()=>{
+describe("#map",()=>{
 
   it('Test Case 1"', () => {
     const words = ["ground", "control", "to", "major", "tom"];
