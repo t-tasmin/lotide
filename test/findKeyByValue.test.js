@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const findKeyByValue = require('../findKeyByValue');
 
-describe("#findKey",()=>{
+describe("#findKeyByValue",()=>{
 
   
   it('Test Case 1"', () => {
