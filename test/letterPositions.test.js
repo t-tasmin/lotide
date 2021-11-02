@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const letterPositions = require('../letterPositions');
 
-describe("#countLetters",()=>{
+describe("#letterPositions",()=>{
 
   it('Test Case 1"', () => {
     const result = letterPositions("hello molly").l;
