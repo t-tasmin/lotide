@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ttasmin/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is a clone of the module Lodash",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/t-tasmin/lotide.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tania Tasmin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/t-tasmin/lotide/issues"
